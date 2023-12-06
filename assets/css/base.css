@@ -36,3 +36,18 @@ body {
     background-color: #FFFACD;
     min-height: 150px;
 }
+fieldset{
+    margin: 15px;
+    border-radius: 10px;
+    border-color: gray;
+}
+table thead{
+    background-color: black;
+    color: white;
+}
+table tbody tr:nth-child(even) td{
+    background-color: lightgray;
+}
+table tbody tr:hover td {
+    background-color: grey;
+}
