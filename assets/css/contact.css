@@ -1,0 +1,54 @@
+@import url(global.css);
+
+.sections {
+    display: grid;
+    grid-template:
+        "text text" 100px
+        "iframe form" auto/ 1fr 1fr;
+    gap: 60px;
+    justify-items: center;
+    align-items: center;
+}
+
+#section-text {
+    grid-area: text;
+    text-align: center;
+}
+
+#section-iframe {
+    grid-area: iframe;
+}
+
+#section-form {
+    grid-area: form;
+}
+
+fieldset {
+    margin: 15px;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border-radius: 3px;
+}
+
+form textarea {
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0px 5px 0px;
+}
