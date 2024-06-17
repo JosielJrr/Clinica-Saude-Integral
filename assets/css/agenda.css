@@ -3,8 +3,8 @@
 table,
 th,
 td {
-    border: 1px solid gray;
-    background-color: rgb(250, 250, 250);
+    border: 1px solid green;
+    background-color: rgb(240, 252, 248);
     padding: 8px;
     margin: 60px;
     border-radius: 5px;
@@ -12,8 +12,8 @@ td {
 }
 
 table tbody tr:nth-child(even) td{
-    background-color: lightgray;
+    background-color: rgba(78, 189, 152, 0.493);
 }
 table tbody tr:hover td {
-    background-color: rgb(145, 231, 202);
+    background-color: white;
 }

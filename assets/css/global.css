@@ -29,9 +29,11 @@ header {
 .header-text {
     text-align: center;
 }
+
 .header-text h1 {
     color: rgb(78, 189, 152);
 }
+
 .header-text p {
     font-style: italic;
 }
@@ -52,14 +54,27 @@ nav ul {
     gap: 30px;
 
 }
+
 ul li {
     list-style: none;
+    border: 1px solid lightgray;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #e4e3e3;
+}
+
+nav ul li:hover {
+    border: 1px solid green;
+    background-color: rgb(78, 189, 152);
 }
 
 ul li a {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
+}
+
+nav ul li a:hover {
     font-weight: bold;
 }
 
