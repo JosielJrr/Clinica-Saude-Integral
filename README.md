@@ -1,74 +1,30 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Clínica Saúde Integral :hospital: :dna: :medical_symbol:
+Este repositório contém os arquivos HTML e CSS para o site da Clínica Saúde Integral. O site é projetado para fornecer informações sobre os serviços oferecidos pela clínica, horários de atendimento, e detalhes de contato.
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+## Conteúdo do Repositório
 
-Além de outros recursos falados nas aulas!
+- `index.html`: Página inicial do site, apresentando informações sobre a clínica e seus serviços.
+- `infos.html`: Página detalhando informações sobre a clínica e sua abordagem holística de cuidados de saúde.
+- `agenda.html`: Página com os horários de atendimento da clínica e os serviços disponíveis.
+- `contact.html`: Página com formulário de contato e informações de localização da clínica.
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+## Estrutura do Site
+O site é estruturado em quatro principais seções:
 
-Abaixo como cada página deve ser criada e estruturada.
+- **Header**: Inclui o logotipo da Clínica Saúde Integral e informações principais.
+- **Aside/Navigation**: Navegação para diferentes seções do site (Home, Sobre a Clínica, Horários, Contatos).
+- **Main Content**: Contém o conteúdo principal de cada página, como informações sobre a clínica, serviços oferecidos, e formulário de contato.
+- **Footer**: Informações de contato e horários de funcionamento da clínica.
 
-### Estrutura das páginas
+## Estilos
+- Os estilos CSS estão localizados na pasta `assets/css/`.
+- Cada página possui um arquivo de estilo separado para manter a consistência visual.
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+## Recursos Externos
+- Uso de imagens do logotipo da clínica.
+- Mapa interativo do Google Maps para mostrar a localização da clínica na página de Contatos.
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+## Notas Adicionais
+- Este site foi desenvolvido como parte de um projeto educacional para aprender HTML e que posteriormente foi melhorado com CSS graças aos conhecimentos adquiridos com as formações da Digital Innovation One.
+- As informações sobre a clínica são fictícias e foram utilizadas apenas para fins de demonstração.
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
-
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
-
-3. **Menu** e **Footer** padrões em todas as páginas.
-
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
-
-Bora pra cima!
