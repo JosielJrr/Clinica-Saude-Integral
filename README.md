@@ -25,6 +25,6 @@ O site é estruturado em quatro principais seções:
 - Mapa interativo do Google Maps para mostrar a localização da clínica na página de Contatos.
 
 ## Notas Adicionais
-- Este site foi desenvolvido como parte de um projeto educacional para aprender HTML e que posteriormente foi melhorado com CSS graças aos conhecimentos adquiridos com as formações da Digital Innovation One.
+- Este site foi desenvolvido como parte de um projeto educacional para aprender HTML e que posteriormente foi melhorado com CSS graças aos conhecimentos adquiridos com as formações da [Digital Innovation One](https://www.dio.me/).
 - As informações sobre a clínica são fictícias e foram utilizadas apenas para fins de demonstração.
 
